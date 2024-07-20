@@ -67,3 +67,13 @@
 //     if(index == 7) break;
 //     console.log(index);
 // }
+
+var animal = "gorilla";
+
+if(1){
+    animal = "panda";
+    function animal(){};
+    animal = "zebra";
+}
+
+console.log(animal);
