@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <style>
+        .imgStyle{
+            margin: 20px 10px; 
+            display: block;
+        }
+
+        .para{
+            border: 5px solid black
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="heading"></h1>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit excepturi aperiam placeat
+        cumque quasi dolore maiores atque maxime, aut obcaecati amet saepe vitae! Totam ex itaque, atque quis deserunt
+        et!</p>
+    <div style="display: block;">
+        <ul id="books">
+            <li>Life Of Pie</li>
+            <li>The Alchemist</li>
+        </ul>
+        <button id="addBtn">Add Book to the list</button>
+        <button id="removeBtn">Remove Book from the list</button>
+    </div>
+
+    <div>   
+        <img src="images/pexels-philippedonn-1133957.jpg" width="300px" height="300px">
+        <button class="imgBtn">Change Image</button>
+        <button class="addImgStyle">Add Styling</button>
+        <button class="removeImgStyle">Remove Styling</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
