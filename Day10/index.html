@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+</head>
+<body>
+    <p id="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, ducimus quam adipisci veniam praesentium facere velit dicta cum consequuntur. Qui sapiente, beatae aliquid natus illum necessitatibus dolorem numquam cumque dolores?</p>
+    <button id="changePara">Change Content</button>
+
+    <div>
+    <img src="images/pexels-philippedonn-1133957.jpg" alt="image" id="toggleImage" width="300px" height="300px" style="margin: 20px 10px; display: block;">
+    <button id="toggleImgBtn">Toggle Visibility</button>
+
+<!-- 
+    <form action="" style="display: block; margin-top: 20px;">
+        <label for="inputText">Input Keybord keys:</label>
+        <input type="text" name="" id="inputText">  <br> <br>
+        <label for="password">Enter Password: </label>
+        <input type="password" name="" id="password"> <br> <br>
+        <label for="confirmPassword">Reconfirm Password: </label>
+        <input type="password" name="" id="confirmPassword">
+    </form> -->
+
+    <div style="margin: 20px;">
+        <label for="keyDown">Enter your Input</label>
+        <input type="text" name="" id="keyUp">
+        <p id="keyUpPara">Above input will be placed here !!</p>
+    </div>
+    
+    <form action="" style="display: block; margin-top: 20px;" id="contentForm">
+        <label for="inputText">Enter username: </label>
+        <input type="text" name="username" id="inputText">  <br> <br>
+        <label for="contentPassword">Enter Password: </label>
+        <input type="password" name="password" id="contentPassword"> <br> <br>
+        <label for="content">Enter some content:</label>
+        <textarea name="content" id="content" cols="30" rows="10"></textarea> <br>
+        <input type="submit" value="Submit">
+    </form>
+  <br><br>
+
+    <label>
+        Select your Favorite book: 
+        <select name="book" id="book">
+            <option value="">Select Book</option>
+            <option value="The Alchemist">The Alchemist</option>
+            <option value="Harry Potter">Harry Potter</option>
+            <option value="Game of Thrones">Game of Thrones</option>
+        </select>
+        <p id="favBook"></p>
+    </label>
+
+    <ul>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Ruby</li>
+        <li>Java</li>
+    </ul>
+
+
+    <div id="parent">
+        <button id="addItem">Add List Item</button>
+        <ul id="addList"></ul>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
